@@ -1,8 +1,8 @@
 # Project Nemesis
 
-[C# 소스 (22개)](Source/Assets) · [Unity 데모](UnityDemo) · [실행 방법](#unity-데모-실행)
+[C# 소스 (22개)](Source/Assets) · [게임 실행](#게임-실행) · [Unity 데모 실행](#unity-데모-실행)
 
-조성호 계정의 Git 작성 이력으로 파일 전체를 확인한 C# 소스를 옮겼습니다. 여러 기여자가 수정한 클래스는 전체 파일 범위에서 제외했습니다. 게임 소스는 구현 열람용입니다. 실행은 독립 데모에서 확인할 수 있습니다.
+조성호 계정의 Git 작성 이력으로 파일 전체를 확인한 C# 소스를 옮겼습니다. 여러 기여자가 수정한 클래스는 전체 파일 범위에서 제외했습니다. 공개 C# 소스에서 구현을 살펴보고, 게임 빌드와 Unity 데모를 각각 실행할 수 있습니다.
 
 > **Unity 6 기반의 사이버펑크 3D 액션 로그라이크 게임**  
 > **PC / Mobile 크로스 플랫폼**, **JSON 기반 스킬 시스템**, **Firebase 기반 서버 연동**
@@ -10,6 +10,15 @@
 [프로젝트 문서](https://closed-match-26e.notion.site/28890ea26a698094a386fbdd64752556?source=copy_link) · [시연 영상](https://youtu.be/AbBBSkmhfGs) 
 
 ---
+
+## 게임 실행
+
+[Windows·Android ZIP 다운로드](https://github.com/whtjdgh1931/project-nemesis-code-samples/releases/download/portfolio-demo-v1/ProjectNemesis-Windows-Android.zip) · [릴리스 portfolio-demo-v1](https://github.com/whtjdgh1931/project-nemesis-code-samples/releases/tag/portfolio-demo-v1)
+
+- **Windows**에서는 ZIP 전체를 압축 해제한 뒤 `PC/ProjectNemesis.exe`를 실행합니다.
+- **Android**에서는 ZIP의 `Android/ProjectNemesissMobile.apk`를 기기에 설치합니다.
+
+외부 리소스와 글꼴 라이선스 고지는 ZIP의 `THIRD-PARTY-NOTICES.txt`를 참고하세요.
 
 ## 프로젝트 개요
 
@@ -250,13 +259,13 @@ Assets/
 
 ## Unity 데모 실행
 
-1. 저장소를 내려받은 뒤 Unity Hub에서 `UnityDemo` 폴더를 추가합니다.
+1. 저장소를 내려받은 뒤 Unity Hub에서 [`UnityDemo`](UnityDemo) 폴더를 추가합니다.
 2. Unity **6000.4.8f1**에서 `Assets/Scenes/PortfolioDemo.unity`를 열고 **Play**를 누릅니다.
 3. 제시된 카드 중 하나를 선택해 기업별 보유 수와 가중치 변화를 확인합니다. 각 기업의 기술을 세 개씩 모으면 **Claim fusion upgrade**가 활성화됩니다.
 
 데모 화면은 Unity 기본 GUI로 구성했습니다. 외부 에셋 구매나 서비스 계정 없이 실행할 수 있습니다.
 
-데모는 기술 선택과 콜라보 조건을 체험할 수 있도록 별도로 구현했습니다. 시연 영상에서는 원작의 전투 흐름을 볼 수 있고, 포트폴리오 브랜치에는 전체 클래스가 있습니다.
+데모는 기술 선택과 콜라보 조건을 체험할 수 있도록 별도로 구현했습니다. 시연 영상에서는 팀 프로젝트의 전투 흐름을 볼 수 있습니다.
 
 ## 회고
 
