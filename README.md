@@ -1,6 +1,6 @@
 # Project Nemesis
 
-[C# 소스 (22개)](Source/Assets) · [게임 실행](#게임-실행) · [Unity 데모 실행](#unity-데모-실행)
+[포트폴리오 PDF](docs/ProjectNemesis_Portfolio.pdf) · [C# 소스 (22개)](Source/Assets) · [게임 실행](#게임-실행) · [Unity 데모 실행](#unity-데모-실행)
 
 조성호 계정의 Git 작성 이력으로 파일 전체를 확인한 C# 소스를 옮겼습니다. 여러 기여자가 수정한 클래스는 전체 파일 범위에서 제외했습니다. 공개 C# 소스에서 구현을 살펴보고, 게임 빌드와 Unity 데모를 각각 실행할 수 있습니다.
 
